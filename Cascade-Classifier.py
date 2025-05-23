@@ -42,7 +42,7 @@ FeatureList = []
 LabelList = []
 
 # Change the path to training data
-TrainDir = '../lab5 data/training/'
+TrainDir = 'c:/path/to/training/'  # <-- Update this path to your training data folder
 Seclist = os.listdir(TrainDir)
 
 for SecNum in range(len(Seclist)):
@@ -84,8 +84,8 @@ if test_way == 'img':
     FeatureList = []
     LabelList = []
     
-    # Change the path to training data
-    TrainDir = '../lab5 data/testing/'
+    # Change the path to testing data
+    TrainDir = 'c:/path/to/testing/'  # <-- Update this path to your testing data folder
     Seclist = os.listdir(TrainDir)
     
     for SecNum in range(len(Seclist)):
